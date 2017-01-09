@@ -1,5 +1,5 @@
 {
-  "name": "android-log-to-web",
+  "name": "@vtex/android-log-to-web",
   "version": "1.0.0",
   "description": "A very simple Global Log object to log to the web with same syntax as Android's one",
   "main": "log.js",
