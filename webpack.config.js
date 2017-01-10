@@ -2,7 +2,10 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: './',
-    filename: 'log.js'
+    filename: 'log.js',
+    library: 'Log',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   devServer: {
     inline: true,
