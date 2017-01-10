@@ -5,7 +5,8 @@
   "main": "log.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "test": "node node-test.js"
   },
   "repository": "git+https://github.com/guilhermebruzzi/android-log-to-web.git",
   "keywords": [
